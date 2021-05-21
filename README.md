@@ -4,7 +4,7 @@
 
 - Le projet est décomposé en 3 package :
 
-- **Modele : Composé de 7 classes**
+## Modele : Composé de 7 classes
         - Vehicule : a 4 attributs (Marque, Modèle, Couleur, Prix)
         - Auto : hérite de la classe Vehicule
         - Moto : hérite de la classe Vehicule
@@ -13,7 +13,7 @@
         - Utilisateur : a 2 attributs (username, password);
         - UtilisateurAdmin : hérite de la classe Utilisateur (En gros c'est le collectionnaire).
 
-- **Vue : Composé de 6 classes (interfaces)**
+## Vue : Composé de 6 classes (interfaces)
         - MenuLogin : permet l'utilisateur de se connecter. (si l'utilisateur est un Admin : Le MenuCollectionnaire s'affichera, sinon: c'est le MenuClient qui va s'afficher)
         - MenuCollectionnaire : 
                   - interface qui permet le collectionnaire de gérer la liste des véhicules qu’il possède.
@@ -32,5 +32,5 @@
         - MenuAcheterVehicule : hérite de la classe MenuAjouterAcheter, permet aux clients de choisir le numréro du véhicule qu'il souhaite acheter, puis leurs données perso.
 
 
-- **Controleur : Composé d'une seule classe**
+## Controleur : Composé d'une seule classe**
         - Application : consiste à relier le Modele et la Vue
