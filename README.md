@@ -25,11 +25,14 @@
                   - interface qui permet le collectionnaire de gérer la liste des véhicules qu’il possède.
                   - Dans cette classe on a  6 Panels :
                       -  panelHaut : contient le titre, le labeldeconnexion
-                      -  panelDroite: contient les boutons de navigations (Accueil : permet d'afficher une salutation et contient et le bouton "boutonAjouter" qui permet le                              collectionnaire d'ajouter un véhicule à sa liste, Collection : afficher la collection des véhicules , En Vente: afficher les véhicules qui sont vendre)
+                      -  panelDroite: contient les boutons de navigations (Accueil : permet d'afficher une salutation et contient et le bouton "boutonAjouter" qui permet le                              collectionnaire d'ajouter un véhicule à sa liste, Collection : afficher la collection des véhicules , En Vente: afficher les véhicules qui sont vendre,                          Vendu : permet d'afficher les véhicules vendues.)
                       -  panelAccueil : L'affichage du label Bienvenue et du boutonAjouter sont faites dans le panelAcceuil.
                       -  panelCollection : L'affichage de la collection de véhicules se fait dans le panelCollection
                       -  panelEnVente : L'affichage des véhicules en vente se fait dans le paneAccueil.
                       -  panelVendu : L'affichage des véhicules vendues se fait dans ce panel.
+                 
+                 - Contient 4 Boutons de Navigations: Accueil, Collection, EnVente, Vendu.
+                  
                       
         - MenuClient : herite de la classe MenuCollectionnaire, en modifiant les droits d'accés du client (un client ne peut pas ajouter des véhicules, il ne peut accéder que             aux véhicules en vente, il peut acheter des véhicules)
         - MenuAjouterAcheter : classe mère
