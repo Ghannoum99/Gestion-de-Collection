@@ -23,14 +23,14 @@
                       -  panelAccueil : L'affichage du label Bienvenue et du boutonAjouter sont faites dans le panelAcceuil.
                       -  panelCollection : L'affichage de la collection de véhicules se fait dans le panelCollection
                       -  panelEnVente : L'affichage des véhicules en vente se fait dans le paneAccueil.
-
-- **Remarque :**
-  Les 2 panels (Collection et En Vente) contient un barre de recherche, après l'affichage du résultat de recherche, il faut appuyer soit sur le                                     boutonCollection soit sur le boutonEnVente pour recharger les données.
                   
         - MenuClient : herite de la classe MenuCollectionnaire, en modifiant les droits d'accés du client (un client ne peut pas ajouter des véhicules, il ne peut accéder que             aux véhicules en vente, il peut acheter des véhicules)
         - MenuAjouterAcheter : classe mère
         - MenuAjouterVehicule : hérite de la classe MenuAjouterAcheter, permet au collection d'insérer les données du véhicule qu'il veut ajouter.
         - MenuAcheterVehicule : hérite de la classe MenuAjouterAcheter, permet aux clients de choisir le numréro du véhicule qu'il souhaite acheter, puis leurs données perso.
+
+- **Remarque :**
+  Les 2 panels (Collection et En Vente) contient un barre de recherche, après l'affichage du résultat de recherche, il faut appuyer soit sur le                                     boutonCollection soit sur le boutonEnVente pour recharger les données.
 
 
 
