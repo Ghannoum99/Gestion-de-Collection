@@ -2,7 +2,7 @@
 - Le but du projet est de permettre à l'agence de gérer la liste des véhicules qu'il possède. 
 - 3 types de véhicules possibles : Automobile, Camion et Moto
 
-- Le projet est décomposé en 3 packages : Modele, Vue, Controleur
+- Le projet est décomposé en 4 packages : Modele, Vue, Controleur, fichiers(db)
 
 ## Modele : Composé de 7 classes
         - Vehicule : a 4 attributs (Marque, Modèle, Couleur, Prix)
@@ -36,3 +36,10 @@
 
 ## Controleur : Composé d'une seule classe
         - Application : consiste à relier le Modele et la Vue
+
+
+
+## Fichiers : Composé de 3 classes
+        - Collection : consiste à créer un fichier collection.txt (qui sert à sauvegarder la collection de véhicules)
+        - VehiculeEnVente : consiste à créer un fichier collection_en_vente.txt ( qui regroupe les véhicules en vente)
+        - UserInfo : consiste à créer un fichier users_details.txt (contient les différents utilisateurs) et stocker les données dedans.
