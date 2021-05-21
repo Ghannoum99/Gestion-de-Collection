@@ -24,7 +24,7 @@
                       -  panelCollection : L'affichage de la collection de véhicules se fait dans le panelCollection
                       -  panelEnVente : L'affichage des véhicules en vente se fait dans le paneAccueil.
 
-- ** Remarque : **
+- ** Remarque :**
   Les 2 panels (Collection et En Vente) contient un barre de recherche, après l'affichage du résultat de recherche, il faut appuyer soit sur le                                     boutonCollection soit sur le boutonEnVente pour recharger les données.
                   
         - MenuClient : herite de la classe MenuCollectionnaire, en modifiant les droits d'accés du client (un client ne peut pas ajouter des véhicules, il ne peut accéder que             aux véhicules en vente, il peut acheter des véhicules)
