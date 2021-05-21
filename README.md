@@ -1,4 +1,9 @@
 # gestion_du_collection
+
+## USER :
+ - **Collectionnaire :** username: Dupont, password : 1234
+ - **Client :** username: Martin, password : 1234
+ 
 - Le but du projet est de permettre à l'agence de gérer la liste des véhicules qu'il possède. 
 - 3 types de véhicules possibles : Automobile, Camion et Moto
 
@@ -17,13 +22,14 @@
         - MenuLogin : permet l'utilisateur de se connecter. (si l'utilisateur est un Admin : Le MenuCollectionnaire s'affichera, sinon: c'est le MenuClient qui va s'afficher)
         - MenuCollectionnaire : 
                   - interface qui permet le collectionnaire de gérer la liste des véhicules qu’il possède.
-                  - Dans cette classe on a  5 Panels :
+                  - Dans cette classe on a  6 Panels :
                       -  panelHaut : contient le titre, le labeldeconnexion
                       -  panelDroite: contient les boutons de navigations (Accueil : permet d'afficher une salutation et contient et le bouton "boutonAjouter" qui permet le                              collectionnaire d'ajouter un véhicule à sa liste, Collection : afficher la collection des véhicules , En Vente: afficher les véhicules qui sont vendre)
                       -  panelAccueil : L'affichage du label Bienvenue et du boutonAjouter sont faites dans le panelAcceuil.
                       -  panelCollection : L'affichage de la collection de véhicules se fait dans le panelCollection
                       -  panelEnVente : L'affichage des véhicules en vente se fait dans le paneAccueil.
-                  
+                      -  panelVendu : L'affichage des véhicules vendues se fait dans ce panel.
+                      
         - MenuClient : herite de la classe MenuCollectionnaire, en modifiant les droits d'accés du client (un client ne peut pas ajouter des véhicules, il ne peut accéder que             aux véhicules en vente, il peut acheter des véhicules)
         - MenuAjouterAcheter : classe mère
         - MenuAjouterVehicule : hérite de la classe MenuAjouterAcheter, permet au collection d'insérer les données du véhicule qu'il veut ajouter.
