@@ -2,7 +2,7 @@
 - Le but du projet est de permettre à l'agence de gérer la liste des véhicules qu'il possède. 
 - 3 types de véhicules possibles : Automobile, Camion et Moto
 
-- Le projet est décomposé en 3 package :
+- Le projet est décomposé en 3 packages : Modele, Vue, Controleur
 
 ## Modele : Composé de 7 classes
         - Vehicule : a 4 attributs (Marque, Modèle, Couleur, Prix)
