@@ -5,7 +5,7 @@
  - **Client :** username: Martin, password : 1234
 
 ## Description:
-- Le but du projet est de permettre à l'agence de gérer la liste des véhicules qu'il possède. 
+- Le but du projet est de permettre au collectionnaire de gérer la liste des véhicules qu'il possède. 
 - 3 types de véhicules possibles : Automobile, Camion et Moto
 
 - Le projet est décomposé en 4 packages : Modele, Vue, Controleur, fichiers(db)
