@@ -1,6 +1,6 @@
 # gestion_du_collection
 
-## USER :
+## USERS :
  - **Collectionnaire :** username: Dupont, password : 1234
  - **Client :** username: Martin, password : 1234
 
